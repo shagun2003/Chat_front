@@ -1,0 +1,106 @@
+body
+{
+  margin: 0;
+}
+@media (max-width: 700px) 
+{
+
+  .Joinpae {
+    align-items: flex-start !important;
+  }
+.joincontainer {
+    margin-top: 20vw !important;
+    width: 55vw !important;
+    padding: 4vw !important;
+    height: 80vw !important;
+  
+}
+
+.joincontainer > img {
+    width: 40vw !important;
+    height: 20vw !important;
+}
+
+
+
+#joininput {
+    width: 40vw !important;
+    padding: 4vw !important;
+    font-size: 4vw !important;
+   
+}
+
+#joinpass {
+  width: 40vw !important;
+  padding: 4vw !important;
+  font-size: 4vw !important;
+ 
+}
+
+.joinbtn {
+  width: 40vw !important;
+    padding: 4vw !important;
+    font-size: 4vw !important;
+}
+.catcontainer
+{
+    
+     width:100% !important;
+     height:100% !important;
+     border-radius:3px;
+
+}
+.main
+{
+   
+    height: 10% !important;
+    border-radius:3px;
+   
+   
+}
+.main >h2{
+ 
+  margin:8vw !important;
+  font-size:5vw !important
+}
+.main>a> img
+{
+  margin:6vw !important;
+ transform: scale(2) !important;
+}
+.main>a>img:hover
+{
+    transform: scale(3.2) !important;
+}
+.catbox
+{
+    
+    height: 80% !important;
+ 
+   
+}
+.inputbox
+{
+    
+    height: 10% !important;
+    
+}
+#catinput
+{
+   padding:4vw !important;
+   
+  font-size:4vw !important;
+ 
+}
+.messagebox
+{
+ 
+ 
+    padding: 3vw !important;
+    margin:3vw !important;
+    border-radius: 1.5vw !important;
+    font-size:3.7vw !important;
+   
+}
+
+}

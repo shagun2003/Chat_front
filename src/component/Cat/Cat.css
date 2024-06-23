@@ -1,0 +1,95 @@
+.catpae
+{
+background-color:rgb(31, 29, 29);
+width:100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.catcontainer
+{
+     background-color: white;
+     width: 50%;
+     height: 60%;
+     border-radius:3px;
+
+}
+.main
+{
+    background-color:rgb(213, 68, 6); 
+    height: 15%;
+    border-radius:3px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+   
+}
+.main >h2{
+    color: white;
+    margin: 1.5vmax;
+    font-size:1.5vmax;
+}
+.main>a> img
+{
+    margin: 1.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.main>a>img:hover
+{
+    transform: scale(1.2);
+}
+.catbox
+{
+    
+    height: 70%;
+    box-sizing: border-box;
+    border-radius:3px;
+   
+}
+.inputbox
+{
+    border: 0.1vmax solid black;
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+    border-radius:3px;
+   
+}
+#catinput
+{
+    width: 80%;
+   border:none;
+   background-color: white;
+   padding: 2vmax;
+   box-sizing: border-box;
+  outline:none;
+  font-size:2vmax;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius:3px;
+}
+#catbtn
+{
+    background-color:rgb(213, 68, 6);  
+    width: 20%; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:3px;
+    transition: all 0.3s;
+}
+#catbtn:hover
+{
+    background-color:rgb(192, 69, 17); 
+}
+#catbtn >img
+{
+    width: 3vmax;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+#catbtn:hover img
+{
+   transform: translateX(10px);
+}
