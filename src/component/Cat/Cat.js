@@ -7,7 +7,7 @@ import send from './send.png';
 import { user } from '../join/join';
 import closeIcon from './closeIcon.png';
 
-const ENDPOINT = `https://server-side-five-pearl.vercel.app`;
+const ENDPOINT = 'http://localhost:4500/';
 let socket;
 
 const Cat = () => {
