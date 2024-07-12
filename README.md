@@ -7,7 +7,6 @@ A real-time chat application built with React js, Node js ,Express js ans Socket
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -26,9 +25,15 @@ ChatApp is a real-time messaging application that allows users to communicate wi
 
 ## Technologies Used
 
-- **Frontend**: React.js, Material-UI
+- **Frontend**: React.js
 - **Backend**: Node.js, Express.js, Socket.io
 
 ### Prerequisites
-
 - Node.js
+  
+### Screenshots
+![lo](https://github.com/user-attachments/assets/83d6b62c-a175-434c-89a5-f8ed4241b70d)
+![cat](https://github.com/user-attachments/assets/5c874977-da23-4bcf-bda0-a5b7420b8bbd)
+
+
+
